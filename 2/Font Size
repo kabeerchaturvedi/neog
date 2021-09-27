@@ -1,0 +1,22 @@
+<html>
+  <h1 id="text">Hi there</h1>
+  <input type="text" id="text" />
+ <button id="btn-large">+</button> -->
+  <button id="btn-small">_</button>
+
+  <script>
+    const text = document.getElementById("text");
+    const btnLarge = document.getElementById("btn-large");
+    const btnSmall = document.getElementById("btn-small");
+
+    let number = 32;
+    btnLarge.addEventListener("click", () => {
+      number = number + 2;
+      text.style.fontSize = `${number}px`;
+    });
+    btnSmall.addEventListener("click", () => {
+      number = number - 2;
+      text.style.fontSize = `${number}px`;
+    });
+  </script>
+</html>
