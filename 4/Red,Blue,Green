@@ -1,0 +1,23 @@
+<html>
+  <h1 id="text">Hi there</h1>
+  <button id="blue">Blue</button>
+  <button id="red">Red</button>
+  <button id="green">Green</button>
+
+  <script>
+    const text = document.getElementById("text");
+    const btn1 = document.getElementById("blue");
+    const btn2 = document.getElementById("red");
+    const btn3 = document.getElementById("green");
+
+    btn1.addEventListener("click", () => {
+      text.style.color = "blue";
+    });
+    btn2.addEventListener("click", () => {
+      text.style.color = "red";
+    });
+    btn3.addEventListener("click", () => {
+      text.style.color = "green";
+    });
+  </script>
+</html>
