@@ -1,0 +1,25 @@
+<html>
+  <div>
+    <h1 id="text">Hello</h1>
+    <button id="h1">H1</button>
+    <button id="h2">H2</button>
+    <button id="h3">H3</button>
+  </div>
+
+  <script>
+    const text = document.getElementById("text");
+    const btn1 = document.getElementById("h1");
+    const btn2 = document.getElementById("h2");
+    const btn3 = document.getElementById("h3");
+
+    btn1.addEventListener("click", () => {
+      text.style.fontSize = `${2}em`;
+    });
+    btn2.addEventListener("click", () => {
+      text.style.fontSize = `${1.5}em`;
+    });
+    btn3.addEventListener("click", () => {
+      text.style.fontSize = `${1.17}em`;
+    });
+  </script>
+</html> 
