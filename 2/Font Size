@@ -1,6 +1,6 @@
 <html>
   <h1 id="text">Hi there</h1>
-  <input type="text" id="text" />
+
  <button id="btn-large">+</button> -->
   <button id="btn-small">_</button>
 
